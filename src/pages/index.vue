@@ -45,13 +45,13 @@ const { t } = useI18n()
     <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
 
     <div>
-      <button
+      <el-button
         btn m-3 text-sm
         :disabled="!name"
         @click="go"
       >
         {{ t('button.go') }}
-      </button>
+      </el-button>
     </div>
   </div>
 </template>
